@@ -1,5 +1,5 @@
 {% set name = "snompy" %}
-{% set version = "0.1.7" %}
+{% set version = "0.1.9" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/snompy-{{ version }}.tar.gz
-  sha256: 9e344f28b89bf5f75ecffd3bcf5fc3ccad0832e4ffc0f3bdffb18e6f9b7b21c0
+  sha256: aed85e217e32bfb31eae000ecfb1923f7610b290732e910bbbdc308c7e485d2a
 
 build:
   noarch: python
